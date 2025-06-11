@@ -1,0 +1,17 @@
+{
+  "name": "graphite",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "description": "A simple web server for serving static files and handling API requests.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
